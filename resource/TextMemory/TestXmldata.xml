@@ -1,0 +1,38 @@
+<data>
+  <cargos>
+    <cargo id="1_a" type="FOOD">
+      <name>APPLE</name>
+    </cargo>
+    <cargo id="2_a" type="CLOTHERS">
+      <name>JEANS</name>
+    </cargo>
+    <cargo id="3_a" type="FOOD">
+      <name>ORANGE</name>
+    </cargo>
+
+  </cargos>
+
+  <carriers>
+    <carrier id="1_b">
+      <name>YOUR_DELIVERY</name>
+    </carrier>
+    <carrier id="2_b">
+      <name>FASTEST EVER</name>
+    </carrier>
+  </carriers>
+
+
+  <transportations>
+    <transportation cargoref="1_a" carrierref="1_b">
+      <billto>Ivanov</billto>
+    </transportation>
+
+    <transportation cargoref="2_a" carrierref="1_b">
+      <billto>Petrov</billto>
+    </transportation>
+
+    <transportation cargoref="3_a" carrierref="2_b">
+      <billto>Sidorov</billto>
+    </transportation>
+  </transportations>
+</data>

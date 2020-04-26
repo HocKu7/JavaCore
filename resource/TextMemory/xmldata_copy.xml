@@ -1,0 +1,57 @@
+<data>
+  <cargos>
+    <cargo id="1_a" type="FOOD">
+      <name>APPLE</name>
+      <weight>100</weight>
+      <expirationDate>20.12.2025</expirationDate>
+      <storeTemperature>-50</storeTemperature>
+    </cargo>
+    <cargo id="2_a" type="CLOTHERS">
+      <name>JEANS</name>
+      <weight>200</weight>
+      <size>XXL</size>
+      <material>COTTON</material>
+    </cargo>
+    <cargo id="3_a" type="FOOD">
+      <name>ORANGE</name>
+      <weight>300</weight>
+      <expirationDate>11.11.2020</expirationDate>
+      <storeTemperature>-20</storeTemperature>
+    </cargo>
+
+  </cargos>
+
+  <carriers>
+    <carrier id="1_b">
+      <name>YOUR_DELIVERY</name>
+      <address>Spb, Nevskiy 800</address>
+      <type>SHIP</type>
+    </carrier>
+    <carrier id="2_b">
+      <name>FASTEST EVER</name>
+      <address>Sp, Prosveheniya 900</address>
+      <type>PLANE</type>
+    </carrier>
+  </carriers>
+
+
+  <transportations>
+    <transportation cargoref="1_a" carrierref="1_b">
+      <billto>Ivanov</billto>
+      <transportationBeginDate>11.11.2010</transportationBeginDate>
+      <description>Vip order</description>
+    </transportation>
+
+    <transportation cargoref="2_a" carrierref="1_b">
+      <billto>Petrov</billto>
+      <transportationBeginDate>11.11.2011</transportationBeginDate>
+      <description>Fragile</description>
+    </transportation>
+
+    <transportation cargoref="3_a" carrierref="2_b">
+      <billto>Sidorov</billto>
+      <transportationBeginDate>01.01.2017</transportationBeginDate>
+      <description>Fragile</description>
+    </transportation>
+  </transportations>
+</data>

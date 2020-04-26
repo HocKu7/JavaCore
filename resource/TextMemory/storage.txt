@@ -1,0 +1,19 @@
+Cargo{
+    Clother{
+        1#SomeName#10#1,2#clothers#20#silk
+        2#SomeName2#20#3#clothers#20#silk
+    }
+    Food{
+        3#SomeName 3#20#4#food#2.10.2019#34
+    }
+}
+Carriers{
+    4#Petrovich#Prosveshenie avenue 43#car#1,2
+    5#Gruzovichkov#Nevskiy street 91#train#3
+}
+Transportation{
+    1#4#Some main.transportation#Vasya#20.12.2019
+    2#4#Some main.transportation 2#Vasya 2#21.12.2019
+    3#5#Some main.transportation 3#Vasya 3#22.12.2019
+}
+
